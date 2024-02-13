@@ -26,7 +26,7 @@ body{
   flex-direction: column;
   font-family: var(--font-kumbh);
   background-color: var(--Darkcyan);
-  background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+  background-image: url("https://raw.githubusercontent.com/Siddarth-abcs/profile-card-component-main/f3c594ededfb2f840cd68c78e4c4ad8e7890c013/images/bg-pattern-top.svg"), url("https://raw.githubusercontent.com/Siddarth-abcs/profile-card-component-main/f3c594ededfb2f840cd68c78e4c4ad8e7890c013/images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
