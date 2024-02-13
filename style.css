@@ -26,29 +26,15 @@ body{
   flex-direction: column;
   font-family: var(--font-kumbh);
   background-color: var(--Darkcyan);
+  background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
 
 .bottomimage,
 .topimage{
   display: none;
 }
-@media screen and (min-width: 1000px) {
-.bottomimage,
-.topimage{
-  display: block;
-  position: absolute;
-  z-index: -1;
-}
-.topimage{
-  top: -70%;
-  left: -20%;
-}
-.bottomimage{
-  top: 40%;
-  left: 50%;
-}
-}
-
 .container{
   width: 22rem;
   background-image: url('./images/bg-pattern-card.svg');
